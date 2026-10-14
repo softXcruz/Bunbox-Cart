@@ -64,7 +64,7 @@ export default function Storefront() {
                 onQueryChange={setQuery}
             />
             
-            <main className="mx-auto max-w-6xl px-8 py-8">
+            <main className="mx-auto max-w-6xl px-3 md:px-8 py-8">
                 {filteredProducts.length === 0 ? (
                     <div className="flex flex-col items-center py-20 text-center">
                         <p className="text-lg font-semibold text-neutral-900 dark:text-white">
