@@ -65,4 +65,4 @@ Other scripts: `npm run lint`, `npm run build`, `npm run start`.
 
 ## Credits
 
-Built by [Your name](https://github.com/softXcruz).
+Built by [Marco cruz (softxcruz)](https://github.com/softXcruz).
