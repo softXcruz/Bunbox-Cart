@@ -35,21 +35,6 @@ Bunbox is a front-end project I built to practice state management in a shop-sty
 - Tailwind CSS
 - Vercel for hosting
 
-## Running it locally
-
-You need Node 20 or newer.
-
-```bash
-git clone https://github.com/softXcruz/Bunbox-Cart.git
-cd Bunbox-Cart
-npm install
-npm run dev
-```
-
-Then open http://localhost:3000.
-
-Other scripts: `npm run lint`, `npm run build`, `npm run start`.
-
 ## Decisions worth mentioning
 
 **The cart uses `useReducer`.** Adding, removing and changing quantities are all actions on one reducer instead of several `useState` calls that have to stay in sync. Every change to the cart goes through the same place, which makes the logic easy to follow and to test.
